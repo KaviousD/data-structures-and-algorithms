@@ -31,7 +31,7 @@ const addExclamation = (arr) => {
   // Solution code here...
   let T2 = [];
   arr.forEach((element) => {
-    element = element + "!";
+    element = element + '!';
     T2.push(element);
   });
   return T2;
@@ -107,6 +107,7 @@ const addNumbers = (num, arr, times, callback) => {
   for (let i = 0; i < times; i++) {
     callback(arr, num);
   }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
